@@ -1,0 +1,193 @@
+.header {
+    background: #000080;
+}
+
+.header__inner {
+    margin: 0 30px;
+    padding: 20px 3px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.kanri-system__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+
+
+.search-form {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    border: #000080 solid 1px;
+}
+
+.form__group--top {
+    display: flex;
+    gap: 30px;
+}
+
+.form__radio--sex {
+    text-align: left;
+}
+
+.form__radio--sex label {
+    padding: 0 0 0 50px;
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.form__radio--sex:nth-child(1) label {
+    margin-right: 40px;
+}
+
+.form__radio--sex label:before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.form__radio--sex input[type="radio"] {
+    appearance: none;
+}
+
+.form__radio--sex input[type="radio"]:checked+label:after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.form__group {
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    height: 50px;
+}
+
+.form__group--register {
+    width: 66.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form__input-register--text input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+    height: 50px;
+}
+
+.search-form__button {
+    margin-top: 80px;
+}
+
+.search-form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3px;
+    background: #000080;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset__link {
+    margin-top: 30px;
+}
+
+
+
+.kanri-table {
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.kanri-table__inner {
+    width: 100%;
+}
+
+.kanri-table__row {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.kanri-table__header {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.kanri-table__header-span {
+    margin-right: 10%;
+
+}
+
+/* .kanri-table__item {
+    margin: 0 auto;
+} */
+
+.delete-form__button {
+    margin-left: 93%;
+    width: 70px;
+}
+
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #000080;
+    color: #fff;
+    cursor: pointer;
+}
